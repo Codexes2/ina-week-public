@@ -1,0 +1,46 @@
+:bg:InaDefeated1:
+:noChar:default: いな: …
+:noChar:default: アロエ: …
+:noChar:default: ねね: …
+
+:noChar:inaKnight: 悪くないですよ、アロエ先輩…
+:noChar:inaKnight: 私はあなたに勝つ要素すべてを持っていると思ってたのに…
+:noChar:inaKnight: あは…、解りました
+:effect:fadeIn:0.4:
+:bgFades:light:
+
+:music:lofi:0.5
+:bg:InaDefeated2:
+:effect:fadeOut:0.4:
+:bgFades:light:
+
+:noChar:ina: あなたの勝ちです、アロエ先輩。約束は守ります
+
+:bg:stage3:
+:effect:rightSide:
+:bf:scared:これからどうするの？
+
+:ina:smile:私ですか？
+:ina:smile:世界が完全に分断されるのにはまだ時間がかかりそうですし…、
+:ina:smile:最後まで見守った後は、こっちから何も漏れ出さないようにします
+:ina:defeatedSmile:その後は…ここでしばらくのんびりしようかな
+:ina:winkSmile:出口はあそこです、滑らないように気を付けてくださいね
+
+:effect:rightSide:
+:bf:default:よっしゃ！ねねちゃん、行こっ！
+
+:effect:rightSide:
+:effect:exitStageRight:0.7:
+:gf:happy:いなちゃん、またねね～！
+
+:ina:smile:…
+:ina:defeatedSad:ハァ　こてんぱんにされちゃったな 
+:ina:defeatedSmile:えへへ…ま、いっか
+:ina:winkSmile:アロエ先輩、また勝負してくれないかな？
+
+:music:fadeOut:
+:bg:darkness:
+:noChar:ina:もしかしたらだけど…今度来たときは追加のテストを喜んでくれるかもしれないよね
+:noChar:default:-FREEPLAYに新しい曲が追加されました-
+
+

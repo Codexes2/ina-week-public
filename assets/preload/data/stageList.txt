@@ -1,0 +1,10 @@
+stage
+stagePaint
+halloweenPaint
+phillyPaint
+painted
+darkness
+radience
+gensokyo
+saigyou
+extraStage2

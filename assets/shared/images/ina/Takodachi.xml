@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Takodachi.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Tako0000" x="0" y="0" width="183" height="152" frameX="0" frameY="-24" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0001" x="0" y="0" width="183" height="152" frameX="0" frameY="-24" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0002" x="183" y="0" width="181" height="162" frameX="-1" frameY="-17" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0003" x="183" y="0" width="181" height="162" frameX="-1" frameY="-17" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0004" x="183" y="0" width="181" height="162" frameX="-1" frameY="-17" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0005" x="364" y="0" width="179" height="164" frameX="-2" frameY="-14" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0006" x="364" y="0" width="179" height="164" frameX="-2" frameY="-14" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0007" x="364" y="0" width="179" height="164" frameX="-2" frameY="-14" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0008" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0009" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0010" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0011" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0012" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0013" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="Tako0014" x="543" y="0" width="181" height="183" frameX="-1" frameY="0" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0000" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0001" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0002" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0003" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0004" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0005" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0006" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0007" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0008" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0009" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0010" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0011" x="724" y="0" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0012" x="724" y="0" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0013" x="0" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0014" x="0" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0015" x="181" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0016" x="181" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0017" x="362" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0018" x="362" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0019" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0020" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0021" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0022" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0023" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0024" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0025" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0026" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0027" x="0" y="370" width="182" height="186"/>
+	<SubTexture name="TakoSucc0028" x="0" y="370" width="182" height="186"/>
+	<SubTexture name="TakoSucc0029" x="182" y="370" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0030" x="182" y="370" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0031" x="0" y="370" width="182" height="186"/>
+	<SubTexture name="TakoSucc0032" x="0" y="370" width="182" height="186"/>
+	<SubTexture name="TakoSucc0033" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0034" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0035" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0036" x="543" y="184" width="178" height="181" frameX="-2" frameY="-3" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0037" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0038" x="721" y="184" width="182" height="186"/>
+	<SubTexture name="TakoSucc0039" x="360" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0040" x="360" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0041" x="362" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0042" x="362" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0043" x="360" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0044" x="360" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0045" x="541" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0046" x="541" y="370" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0047" x="0" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0048" x="0" y="184" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0049" x="724" y="0" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0050" x="724" y="0" width="181" height="184" frameX="0" frameY="-1" frameWidth="182" frameHeight="186"/>
+	<SubTexture name="TakoSucc0051" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0052" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0053" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0054" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0055" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0056" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0057" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0058" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+	<SubTexture name="TakoSucc0059" x="543" y="0" width="181" height="183" frameX="0" frameY="-1" frameWidth="183" frameHeight="183"/>
+</TextureAtlas>

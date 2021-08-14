@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bgFades.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cimage1.png" x="0" y="0" width="1280" height="719"/>
+	<SubTexture name="cimage2.png" x="1280" y="0" width="1280" height="719"/>
+	<SubTexture name="cimage3.png" x="2560" y="0" width="1280" height="719"/>
+	<SubTexture name="cimage4.png" x="0" y="719" width="1280" height="719"/>
+	<SubTexture name="darkness.png" x="1280" y="719" width="1280" height="719"/>
+	<SubTexture name="light.png" x="2560" y="719" width="1280" height="719"/>
+	<SubTexture name="stage1.png" x="0" y="1438" width="1280" height="719"/>
+	<SubTexture name="stage2.png" x="1280" y="1438" width="1280" height="719"/>
+	<SubTexture name="stage3.png" x="2560" y="1438" width="1280" height="719"/>
+</TextureAtlas>

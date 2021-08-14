@@ -1,0 +1,48 @@
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:gf:default:Ah, Ina-chan!
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:bf:default:Ina-chan?
+
+:music:lofi:0.5
+:effect:fadeIn:0.4
+:bgFades:stage1:
+
+:bg:stage1:
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:ina:happy:Ah, you two are here.
+
+:effect:rightSide:
+:gf:happy:Ina-chan, my wife!
+
+:effect:rightSide:
+:bf:fear:Wife?!
+
+:ina:winkSmile:Haha, still the same as ever, Nene-senpai.
+:ina:smile:I'm glad that this merging of worlds got both of your attention.
+
+:effect:rightSide:
+:bf:scared:You can stop this though, right?
+:ina:smile:Of course, but on one condition:
+:ina:happy:Beat me in a rap battle.
+
+:effect:rightSide:
+:bf:fear:Ha?!
+
+:effect:rightSide:
+:gf:happy:Yes, Aloe-chan would love that!
+
+:ina:smile:If you beat me, I'll pull back my world and stop my antics.
+:ina:smile:If you lose, well, I suppose it's the end of the world for you, isn't it?
+:ina:winkSmile:But I'll be sure to protect Nene-senpai in your place.
+
+:effect:rightSide:
+:bf:scared:...!
+
+
+

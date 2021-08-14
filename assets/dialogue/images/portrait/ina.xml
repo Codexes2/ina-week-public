@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ina.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ina_Defeated_Sad.png" x="0" y="0" width="800" height="820"/>
+	<SubTexture name="Ina_Defeated_Serious.png" x="800" y="0" width="800" height="820"/>
+	<SubTexture name="Ina_Defeated_Smile.png" x="1600" y="0" width="800" height="820"/>
+	<SubTexture name="Ina_Happy.png" x="2400" y="0" width="800" height="820"/>
+	<SubTexture name="Ina_Insane.png" x="3200" y="0" width="800" height="820"/>
+	<SubTexture name="Ina_Neutral.png" x="0" y="820" width="800" height="820"/>
+	<SubTexture name="Ina_Smile.png" x="800" y="820" width="800" height="820"/>
+	<SubTexture name="Ina_Wink_Frown.png" x="1600" y="820" width="800" height="820"/>
+	<SubTexture name="Ina_Wink_Smile.png" x="2400" y="820" width="800" height="820"/>
+</TextureAtlas>

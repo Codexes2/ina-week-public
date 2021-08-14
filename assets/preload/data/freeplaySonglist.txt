@@ -1,0 +1,19 @@
+Tutorial:gf:0
+Live Again:dad:1
+RIP:dad:1
+Callibattle:dad:1
+Sharkventure:spooky:2
+Mythbuster:spooky:2
+Haachama:monster:2
+Botan:pico:3
+Lalion:pico:3
+Poi:pico:3
+Weight Of The Universe:ina:4
+Unravelling Distortion:ina:4
+Radiant Heaven:inaKnight:4
+Our Nonstop Story:inaKnight:4
+Bordering Final Story:inaKnight:4
+Stand By Me:ina:4
+Inapurgation:inapurgation:4
+Eldritch Phantasm:inapurgation:4
+Inaposter:ina:4

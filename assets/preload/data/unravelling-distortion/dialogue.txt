@@ -1,0 +1,39 @@
+:music:lofi:0.5
+:bg:stage1:
+:effect:rightSide:
+:gf:default:That was amazing, Aloe-chan!
+
+:effect:rightSide:
+:bf:default:Phew... how 'bout that, Ina?
+
+:ina:winkFrown:Yes, you did quite well, Aloe-senpai.
+:ina:default:However, I won't let you off that easily.
+:ina:smile:Excuse us, Nene-senpai, Aloe-senpai and I are going to be away for a bit.
+:ina:winkSmile:It won't take long.
+
+:bg:darkness:
+:music:stop:
+:sound:snap:
+:effect:hidden:
+
+:music:san:0.5
+:effect:fadeIn:0.2
+:bgFades:stage2:
+:bg:stage2:
+:effect:rightSide:
+:effect:fadeIn:0.4
+:bf:fear:Huh?! Where are we?!
+
+:effect:fadeIn:0.4
+:ina:smile:It's okay, Aloe-senpai, we're only here for a short while.
+:ina:default:... You genuinely care for Nene-senpai, don't you?
+
+:effect:rightSide:
+:bf:default: Of course I do! Why wouldn't I?
+
+:ina:default:I see. Then let's have another rap battle here.
+:ina:smile:Maybe you can call this a 'test of will' instead.
+:ina:winkSmile:Or maybe... a test of sanity?
+
+:effect:rightSide:
+:bf:scared:...

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="NOTE_nightmare.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="blue alone0000" x="0" y="0" width="157" height="154"/>
+	<SubTexture name="purple alone0000" x="157" y="0" width="157" height="154"/>
+	<SubTexture name="red alone0000" x="314" y="0" width="157" height="154"/>
+	<SubTexture name="green alone0000" x="0" y="154" width="157" height="154"/>
+</TextureAtlas>

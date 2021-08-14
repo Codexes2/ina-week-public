@@ -1,0 +1,30 @@
+:music:weight:0.5
+:bg:Transition1:
+:noChar:inaKnight:To be pushed to such limits, is nothing short of ina-credible.
+:noChar:inaKnight:But losing isn't on this week's streaming schedule...
+:noChar:inaKnight:Ancient Ones, heed my call,
+
+:bg:Transition2:
+:noChar:inaKnight:Let us perform the melody of the heart and soul of Hololive itself!
+
+:effect:fadeIn:0.4
+:bgFades:darkness:
+
+:bg:stage4p1:
+:effect:fadeOut:0.4
+:bgFades:darkness:
+
+:effect:rightSide:
+:bf:fear:!
+
+:effect:rightSide:
+:gf:happy:You got this, Aloe-chan!
+
+:effect:rightSide:
+:bf:scared:...
+
+:effect:rightSide:
+:bf:default:You're right, Nene!
+
+:effect:rightSide:
+:bf:default:Come on, Ina, let's finish this!

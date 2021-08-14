@@ -1,0 +1,61 @@
+:music:san:0.5
+:bg:stage2:
+:ina:winkFrown:アロエ先輩、私はあなたのラップバトルを幾度となく見てきました
+:ina:default:ホロメンや同期を打ち負かし、随分と成長しましたね
+:ina:defeatedSerious:ですが、ダディ・ディアレスト一族を相手にするほどの力はお持ちでしょうか？
+
+:effect:rightSide:
+:bf:scared:…
+:bg:cimage1:
+:noChar:ina: ねね先輩を守り抜く強さはお持ちですか？
+:noChar:bf: …！
+
+:music:stop:
+:effect:fadeIn:0.4
+:bgFades:darkness:
+
+:bg:darkness:
+:noChar:gf: アロエ！
+:noChar:aloe: …？！ねね？！
+
+:effect:fadeIn:0.4
+:bgFades:cimage2:
+
+:bg:cimage2:
+:noChar:gf: アロエ！どこなの？！
+:noChar:gf: もし聞こえてるなら……諦めないで！！
+:noChar:bf: ………
+:noChar:bf: …バカ…、諦めるわけないでしょ！
+:noChar:bf: いな、今から証明してやるよ
+:noChar:bf: 私は、ダディ・ディアレストにも、そしてこの世界にも…
+:noChar:bf: 私が一番大切にしているもの…親友を守り抜くっていうことを！
+
+:effect:fadeIn:0.4
+:bgFades:light:
+
+:bg:stage3:
+:effect:fadeOut:0.4
+:bgFades:light
+
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:effect:fadeIn:0.4
+:gf:happy:アロエ！
+
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:effect:fadeIn:0.4
+:bf:default:ねね！
+
+:music:fadeOut:
+:ina:defeatedSerious:解りました…
+
+:effect:rightSide:
+:gf:default:いなちゃん…？
+
+:music:weight:0.5
+:bg:cimage3:
+:noChar:ina:その言葉を実現させたくば、アロエ先輩、あなたの威厳の為にも…
+
+:bg:cimage4:
+:noChar:inaKnight:ここから逃げ出さないことですね

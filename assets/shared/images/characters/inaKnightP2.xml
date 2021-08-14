@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="inaKnightP2.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="InaKnightP2_Down0000" x="0" y="0" width="1498" height="1182" frameX="-10" frameY="0" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0001" x="0" y="0" width="1498" height="1182" frameX="-10" frameY="0" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0002" x="1498" y="0" width="1362" height="1178" frameX="-7" frameY="-7" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0003" x="1498" y="0" width="1362" height="1178" frameX="-7" frameY="-7" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0004" x="1498" y="0" width="1362" height="1178" frameX="-7" frameY="-7" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0005" x="2860" y="0" width="1361" height="1175" frameX="0" frameY="-15" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0006" x="2860" y="0" width="1361" height="1175" frameX="0" frameY="-15" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0007" x="2860" y="0" width="1361" height="1175" frameX="0" frameY="-15" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0008" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0009" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0010" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0011" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0012" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Down0013" x="4221" y="0" width="1312" height="1045" frameX="-39" frameY="-27" frameWidth="1508" frameHeight="1190"/>
+	<SubTexture name="InaKnightP2_Idle0000" x="5533" y="0" width="1267" height="1173" frameX="0" frameY="0" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0001" x="5533" y="0" width="1267" height="1173" frameX="0" frameY="0" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0002" x="6800" y="0" width="1233" height="1209" frameX="-30" frameY="-44" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0003" x="6800" y="0" width="1233" height="1209" frameX="-30" frameY="-44" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0004" x="6800" y="0" width="1233" height="1209" frameX="-30" frameY="-44" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0005" x="0" y="1209" width="1087" height="1098" frameX="-39" frameY="-54" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0006" x="0" y="1209" width="1087" height="1098" frameX="-39" frameY="-54" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0007" x="0" y="1209" width="1087" height="1098" frameX="-39" frameY="-54" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0008" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0009" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0010" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0011" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0012" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Idle0013" x="1087" y="1209" width="1036" height="935" frameX="-33" frameY="-74" frameWidth="1267" frameHeight="1253"/>
+	<SubTexture name="InaKnightP2_Left0000" x="2123" y="1209" width="1271" height="1209" frameX="0" frameY="-11" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0001" x="2123" y="1209" width="1271" height="1209" frameX="0" frameY="-11" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0002" x="3394" y="1209" width="1260" height="1223" frameX="-7" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0003" x="3394" y="1209" width="1260" height="1223" frameX="-7" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0004" x="3394" y="1209" width="1260" height="1223" frameX="-7" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0005" x="4654" y="1209" width="1247" height="1229" frameX="-15" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0006" x="4654" y="1209" width="1247" height="1229" frameX="-15" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0007" x="4654" y="1209" width="1247" height="1229" frameX="-15" frameY="0" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0008" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0009" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0010" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0011" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0012" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Left0013" x="5901" y="1209" width="1216" height="1142" frameX="-30" frameY="-63" frameWidth="1271" frameHeight="1229"/>
+	<SubTexture name="InaKnightP2_Right0000" x="0" y="2438" width="1382" height="1114"/>
+	<SubTexture name="InaKnightP2_Right0001" x="0" y="2438" width="1382" height="1114"/>
+	<SubTexture name="InaKnightP2_Right0002" x="1382" y="2438" width="1339" height="1050" frameX="-5" frameY="-6" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0003" x="1382" y="2438" width="1339" height="1050" frameX="-5" frameY="-6" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0004" x="1382" y="2438" width="1339" height="1050" frameX="-5" frameY="-6" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0005" x="2721" y="2438" width="1327" height="1007" frameX="-10" frameY="-13" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0006" x="2721" y="2438" width="1327" height="1007" frameX="-10" frameY="-13" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0007" x="2721" y="2438" width="1327" height="1007" frameX="-10" frameY="-13" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0008" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0009" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0010" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0011" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0012" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Right0013" x="4048" y="2438" width="1298" height="994" frameX="-23" frameY="-19" frameWidth="1382" frameHeight="1114"/>
+	<SubTexture name="InaKnightP2_Up0000" x="5346" y="2438" width="1299" height="1111" frameX="-18" frameY="-212" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0001" x="5346" y="2438" width="1299" height="1111" frameX="-18" frameY="-212" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0002" x="6645" y="2438" width="1293" height="1185" frameX="-12" frameY="-139" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0003" x="6645" y="2438" width="1293" height="1185" frameX="-12" frameY="-139" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0004" x="6645" y="2438" width="1293" height="1185" frameX="-12" frameY="-139" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0005" x="0" y="3623" width="1304" height="1325" frameX="0" frameY="0" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0006" x="0" y="3623" width="1304" height="1325" frameX="0" frameY="0" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0007" x="0" y="3623" width="1304" height="1325" frameX="0" frameY="0" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0008" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0009" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0010" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0011" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0012" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+	<SubTexture name="InaKnightP2_Up0013" x="1304" y="3623" width="1263" height="1210" frameX="-49" frameY="-55" frameWidth="1317" frameHeight="1325"/>
+</TextureAtlas>

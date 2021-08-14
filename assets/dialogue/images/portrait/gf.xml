@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gf.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Cheer" x="0" y="0" width="338" height="485"/>
+	<SubTexture name="GF Dancing Beat" x="338" y="0" width="352" height="490"/>
+	<SubTexture name="GF FEAR" x="0" y="490" width="415" height="505"/>
+	<SubTexture name="gf sad" x="415" y="490" width="340" height="467"/>
+</TextureAtlas>

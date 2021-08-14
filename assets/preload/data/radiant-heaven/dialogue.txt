@@ -1,0 +1,62 @@
+:music:san:0.5
+:bg:stage2:
+:ina:winkFrown:You know, Aloe-senpai, I've watched your rap battles.
+:ina:default:I've seen you beat against the Holomembers and Genmates, and you've come a long way.
+:ina:defeatedSerious:But do you think you'll have enough to take on the Daddy Dearest Clan?
+
+:effect:rightSide:
+:bf:scared:...
+:bg:cimage1:
+:noChar:ina: Will you have even have enough strength to protect Nene-senpai?
+:noChar:bf: ...!
+
+:music:stop:
+:effect:fadeIn:0.4
+:bgFades:darkness:
+
+:bg:darkness:
+:noChar:gf: Aloe!
+:noChar:aloe: ... ?! Nene?!
+
+:effect:fadeIn:0.4
+:bgFades:cimage2:
+
+:bg:cimage2:
+:noChar:gf: Aloe, where are you?!
+:noChar:gf: If you can hear me, don't give up!!
+:noChar:bf: ... ... ...
+:noChar:bf: ... Dummy, of course I won't!
+:noChar:bf: Ina, I'll prove it to you now.
+:noChar:bf: I'll even prove it to both Daddy Dearest and the world...
+:noChar:bf: ... that I will always protect what I value the most -- my friends!
+
+:effect:fadeIn:0.4
+:bgFades:light:
+
+
+:bg:stage3:
+:effect:fadeOut:0.4
+:bgFades:light
+
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:effect:fadeIn:0.4
+:gf:happy:Aloe!
+
+:effect:rightSide:
+:effect:enterStageRight:0.8
+:effect:fadeIn:0.4
+:bf:default:Nene!
+
+:music:fadeOut:
+:ina:defeatedSerious:I see...
+
+:effect:rightSide:
+:gf:default:Ina-chan? What's wrong?
+
+:music:weight:0.5
+:bg:cimage3:
+:noChar:ina: If what you say is true, Aloe-senpai, then for your sake...
+
+:bg:cimage4:
+:noChar:inaKnight: I hope you don't hold back from this.

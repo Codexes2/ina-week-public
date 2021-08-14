@@ -1,0 +1,5 @@
+if you're reading this, you're probably checking through the source files, along with other stuff you want to go through. kinda makes me happy in a way -- this was a 2-3 month development cycle, basically a summer passion project for me and the other devs. if there's any code you want to use for your own stuff, go for it. i ask that you simply give credit where credit is due.
+
+from the bottom of my heart, thank you, and know that you're always loved and appreciated. 
+stay safe and god bless.
+~codexes
