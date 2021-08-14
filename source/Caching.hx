@@ -55,10 +55,10 @@ class Caching extends MusicBeatState
 	override function create()
 	{
 		if (FileSystem.exists("assets/songs/eidolic-stained-heart") && FileSystem.exists("assets/data/eidolic-stained-heart/eidolic-stained-heart-hard.json"))
-            {
+            /*{
                 haachama = true;
                 trace('ya its all there');
-            }
+            }*/
         else
             {
                 trace('nah bro');
@@ -199,7 +199,7 @@ class Caching extends MusicBeatState
 
 		if (haachama)
 			{
-				new FlxTimer().start(.05, function(tmr:FlxTimer)
+				/*new FlxTimer().start(.05, function(tmr:FlxTimer)
 					{
 						var laughter:FlxText = new FlxText(FlxG.width/2 + FlxG.random.int(-600, 400), FlxG.height/2 + FlxG.random.int(-350, 300), 0, "HAHAHA", 90);
 						laughter.color = FlxColor.RED;
@@ -215,7 +215,7 @@ class Caching extends MusicBeatState
 				new FlxTimer().start(2.5, function(tmr:FlxTimer)
 					{
 						FlxG.switchState(new TitleState());
-					});
+					});*/
 			}
 		else
 			{
