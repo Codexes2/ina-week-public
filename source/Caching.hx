@@ -55,10 +55,10 @@ class Caching extends MusicBeatState
 	override function create()
 	{
 		if (FileSystem.exists("assets/songs/eidolic-stained-heart") && FileSystem.exists("assets/data/eidolic-stained-heart/eidolic-stained-heart-hard.json"))
-            /*{
-                haachama = true;
-                trace('ya its all there');
-            }*/
+            {
+                /*haachama = true;
+                trace('ya its all there');*/
+            }
         else
             {
                 trace('nah bro');
