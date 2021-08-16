@@ -147,16 +147,19 @@ class MainMenuState extends MusicBeatState
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 		var languageSet:String = '';
-		if (FlxG.save.data.inaLanguage) {languageSet = 'jp/';}
-		else {languageSet = 'en/';}
-
-		var tex = Paths.getSparrowAtlas(languageSet + 'FNF_main_menu_assets');
-		var creditTex = Paths.getSparrowAtlas('en/FNF_main_menu_assets');
+		switch (FlxG.save.data.inaLanguage)
+		{
+			case 'ENGLISH': languageSet = 'en/';
+			case 'JAPANESE': languageSet = 'jp/';
+			case 'SPANISH': languageSet = 'es/';
+		}
+		var tex = Paths.getSparrowAtlas('language/' + languageSet + 'FNF_main_menu_assets');
+		var creditTex = Paths.getSparrowAtlas('language/en/FNF_main_menu_assets');
 
 		for (i in 0...optionShit.length)
 		{
 			var menuItem:FlxSprite = new FlxSprite(0, FlxG.height * 1.6);
-			if (FlxG.save.data.inaLanguage && i == 2)
+			if (i == 2 || i == 3)
 				{
 					menuItem.frames = creditTex;
 				}

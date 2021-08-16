@@ -166,6 +166,8 @@ class SanityNotes extends Option
 
 class Language extends Option
 {
+	var languageArray = ["ENGLISH", "JAPANESE", "SPANISH"];
+
 	public function new(desc:String)
 	{
 		super();
@@ -174,15 +176,23 @@ class Language extends Option
 
 	public override function press():Bool
 	{
-		FlxG.save.data.inaLanguage = !FlxG.save.data.inaLanguage;
+		FlxG.save.data.languageINT += 1;
 
+		if (FlxG.save.data.languageINT < 0)
+			FlxG.save.data.languageINT = 0;
+
+		if (FlxG.save.data.languageINT > 2)
+			FlxG.save.data.languageINT = 0;
+
+
+		FlxG.save.data.inaLanguage = languageArray[FlxG.save.data.languageINT];
 		display = updateDisplay();
 		return true;
 	}
 
 	private override function updateDisplay():String
 	{
-		return "Language: " + (!FlxG.save.data.inaLanguage ? "English" : "Japanese");
+		return "Language: " + (FlxG.save.data.inaLanguage);
 	}
 }
 

@@ -1,0 +1,48 @@
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:gf:default:Ah, Ina-chan!
+
+:effect:rightSide:
+:effect:fadeIn:0.4
+:effect:enterStageRight:0.8
+:bf:default:Ina-chan?
+
+:music:lofi:0.5
+:effect:fadeIn:0.4
+:bgFades:stage1:
+
+:bg:stage1:
+:effect:fadeIn:0.4
+:effect:enterStageLeft:0.8
+:ina:happy:Ah, ahí están ustedes dos.
+
+:effect:rightSide:
+:gf:happy:Ina-chan, mi esposa!
+
+:effect:rightSide:
+:bf:fear:Esposa?!
+
+:ina:winkSmile:Jaja, aún eres la misma de siempre, Nene-senpai.
+:ina:smile:Me alegra que esta fusión de mundos llamó la atención de ambas.
+
+:effect:rightSide:
+:bf:scared:Aunque tu puedes detener esto, verdad?
+:ina:smile:Por supuesto,pero con una condición:
+:ina:happy:Vénceme en una batalla de rap.
+
+:effect:rightSide:
+:bf:fear:Eh?!
+
+:effect:rightSide:
+:gf:happy:Si, a Aloe-chan le encantaría!
+
+:ina:smile:Si me derrotas, Retiraré mi mundo y detendré mis travesuras
+:ina:smile:Si tu pierdes, bueno, Supongo que es el fin del mundo para tí, verdad?
+:ina:winkSmile:Pero me aseguraré de proteger a Nene-senpai en tu lugar.
+
+:effect:rightSide:
+:bf:scared:...!
+
+
+

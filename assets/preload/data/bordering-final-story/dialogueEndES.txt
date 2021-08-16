@@ -1,0 +1,45 @@
+:bg:InaDefeated1:
+:noChar:default: Ina: ...
+:noChar:default: Aloe: ...
+:noChar:default: Nene: ...
+
+:noChar:inaKnight: Nada mal, Aloe-senpai...
+:noChar:inaKnight: Y yo pensé que lo tenía todo para vencerte.
+:noChar:inaKnight: Ja ja... muy bien,
+:effect:fadeIn:0.4:
+:bgFades:light:
+
+:music:lofi:0.5
+:bg:InaDefeated2:
+:effect:fadeOut:0.4:
+:bgFades:light:
+
+:noChar:ina: Tu ganas, Aloe-senpai. Mantendré mi parte de la promesa.
+
+:bg:stage3:
+:effect:rightSide:
+:bf:scared:Que vas a hacer ahora?
+
+:ina:smile:Yo?
+:ina:smile:Va a tomar un tiempo para que nuestros mundos se separen.
+:ina:smile:Así que me quedaré a vigilar esto y asegurarme que nada salga de control.
+:ina:defeatedSmile:Después de eso, talvez me relajaré aquí por un rato?
+:ina:winkSmile:La salida está justo ahí.Solo asegúrate de no resbalar,okay?
+
+:effect:rightSide:
+:bf:default:Muy bien! Salgamos de aquí, Nene!
+
+:effect:rightSide:
+:effect:exitStageRight:0.7:
+:gf:happy:Adiós, Ina-chan!
+
+:ina:smile:...
+:ina:defeatedSad:*suspiro* Así que perdí, huh?
+:ina:defeatedSmile:Heh... oh bueno.
+:ina:winkSmile:Me pregunto si a Aloe-senpai le gustaría una revancha más tarde?
+
+:music:fadeOut:
+:bg:darkness:
+:noChar:ina: Quien sabe... talvez la próxima vez, ella apreciará un reto *extra*.
+
+

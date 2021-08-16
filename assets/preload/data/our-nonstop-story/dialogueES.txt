@@ -1,0 +1,30 @@
+:music:weight:0.5
+:bg:Transition1:
+:noChar:inaKnight:Ser empujado a tales límites, es nada menos que ina-creíble.
+:noChar:inaKnight:Pero perder no está en la agenda de streams de esta semana....
+:noChar:inaKnight:Antiguos, escuchen mi llamado,
+
+:bg:Transition2:
+:noChar:inaKnight:Permítenos cantar la melodía del corazón y el alma de Hololive!
+
+:effect:fadeIn:0.4
+:bgFades:darkness:
+
+:bg:stage4p1:
+:effect:fadeOut:0.4
+:bgFades:darkness:
+
+:effect:rightSide:
+:bf:fear:!
+
+:effect:rightSide:
+:gf:happy:Tu tienes esto, Aloe-chan!
+
+:effect:rightSide:
+:bf:scared:...
+
+:effect:rightSide:
+:bf:default:Tienes razón, Nene!
+
+:effect:rightSide:
+:bf:default:Vamos, Ina, terminemos con esto!

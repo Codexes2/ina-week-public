@@ -133,10 +133,15 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 
 		var languageSet:String = '';
-		if (FlxG.save.data.inaLanguage) {languageSet = 'jp/';}
-		else {languageSet = 'en/';}
 
-		var ui_tex = Paths.getSparrowAtlas(languageSet + 'campaign_menu_UI_assets');
+		switch(FlxG.save.data.inaLanguage)
+		{
+			case 'ENGLISH': languageSet = 'en/';
+			case 'JAPANESE': languageSet = 'jp/';
+			case 'SPANISH': languageSet = 'es/';
+		}
+
+		var ui_tex = Paths.getSparrowAtlas('language/' + languageSet + 'campaign_menu_UI_assets');
 
 		grpWeekText = new FlxTypedGroup<MenuItem>();
 		add(grpWeekText);

@@ -117,6 +117,25 @@ class PlayState extends MusicBeatState
 										    "Holofunk Dev Team:\nKeaton Hoshida, TheCoolStalker, GGalactigal\nDangermad, SaltyHotcakes, C013",
 										    "Special thanks and love to:\nNINOMAE INA'NIS, HOLOEN, AND ALL OF HOLOLIVE!!\n\nSpecial thanks to the bros:\nAqwa, Bam, Barry, Blizz, Bumpadump, Dash4Speed, DatSatoGuy, Dewdrop, Dizzy, Futurechama, Grand Hammer 6, Inkami, Kotowari, Maki, Matt_Is_G, Mico, Osu, Telos, Tulsnd, Tunaki, You (the player)!"];
 
+	public var credGroupES:FlxSpriteGroup = new FlxSpriteGroup();
+	public var creditTextES:Array<String> = ["Holofunk:\nNon Canon Ina Week",
+											"Epilogue:\nCalli:\nCon el estudio incendiado por un volcán interior, muchos de los equipos que usaba Calli estaban dañados y necesitaban ser reemplazados. Decidió invitar a Kusotori a una cita de compras para ayudar a reparar el estudio.",
+											"Ame and Gura:\nEscapando del “Bucle de tiempo submarino”, Ame y Gura necesitaban un descanso de la vista de grandes masas de agua. Felizmente se fueron a pasar su momento de relajación en un parque de atracciones cercano dentro de la ciudad.",
+											"Haachama:\nSin inmutarse por la fusión y el descalabro del Mundo Pintado, Haachama pasó su semana como si nada. Sin embargo, el poder que residía en la fusión hizo una sabrosa merienda.",
+											"Botan:\nCuando la ciudad comenzó a brillar donde el ciclo diurno y nocturno volvieron a la normalidad, Botan invitó a todas sus Genmates al bar de Kiryu Coco y celebró la victoria de Aloe con un brindis. La propia Botan tuvo suficiente locura durante una semana.",
+											"Ina:\nIna se quedó para controlar la retracción del Mundo Pintado. Se disculpó con los otros Holomembers que se vieron afectados por sus acciones. Ina ahora vaga por el mundo para adquirir conocimientos y mejorar sus habilidades para el canto.",
+											"Aloe y Nene:\nDespués de su celebración con las chicas de la Gen 5, Aloe y Nene pasaron una noche solas viendo los fuegos artificiales. Aloe jura hacer todo lo posible para proteger a Nene, y Nene deposita su confianza en Aloe ... Sus lazos son verdaderamente inseparables y nada está cerca de romperlos.",
+											"Créditos completos:",
+											"Tressa\nDirector/Artista Primario",
+											"lam\nArtista Secundario",
+											"Codexes\nProgramador principal / Charter principal",
+											"Awoofle\nProgramador Secundario",
+											"ASARI\nMúsico Primario",
+											"Holo Bass\nMúsico Secundario",
+											"Tacocat\nBeta Tester/Animador Motivacional",
+											"Holofunk Dev Team:\nKeaton Hoshida, TheCoolStalker, GGalactigal\nDangermad, SaltyHotcakes, C013",
+											"Un agradecimiento especial y amor a:\nNINOMAE INA'NIS, HOLOEN, AND ALL OF HOLOLIVE!!\n\nUn agradecimiento especial a los bros:\nAqwa, Bam, Barry, Blizz, Bumpadump, Dash4Speed, DatSatoGuy, Dewdrop, Dizzy, Futurechama, Grand Hammer 6, Inkami, Kotowari, Maki, Matt_Is_G, Mico, Osu, Telos, Tulsnd, Tunaki, Tú (el jugador)!"];
+
 	public var textUnlock:FlxText;
 	public var iconArray:Array<String> = ["dad", "spooky", "monster", "pico", "ina", "gf"];
 	public var credIcon:HealthIcon;
@@ -502,39 +521,25 @@ class PlayState extends MusicBeatState
 		Conductor.changeBPM(SONG.bpm);
 
 		var songDialogue = StringTools.replace(PlayState.SONG.song, " ", "-").toLowerCase();
-		trace(songDialogue);
 
-		if(FlxG.save.data.inaLanguage)
+		var languageDia:String = '';
+		switch(FlxG.save.data.inaLanguage)
+		{
+			case 'ENGLISH': languageDia = '';
+			case 'JAPANESE': languageDia = 'JP';
+			case 'SPANISH': languageDia = 'ES';
+		}
+
+		if (dialogueList.contains(songDialogue))
 			{
-				if(dialogueList.contains(songDialogue))
-					{
-						trace("got the dialogue");
-						dialogue = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogueJP.txt");
-						usesDialogue = true;
-					}
-				
-				if(dialogueEndList.contains(songDialogue))
-					{
-						trace("got the end dialogue");
-						dialogueEnd = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogueEndJP.txt");
-						usesEndDialogue = true;
-					}
+				dialogue = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogue" + languageDia + ".txt");
+				usesDialogue = true;
 			}
-		else
+
+		if (dialogueEndList.contains(songDialogue))
 			{
-				if(dialogueList.contains(songDialogue))
-					{
-						trace("got the dialogue");
-						dialogue = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogue.txt");
-						usesDialogue = true;
-					}
-				
-				if(dialogueEndList.contains(songDialogue))
-					{
-						trace("got the end dialogue");
-						dialogueEnd = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogueEnd.txt");
-						usesEndDialogue = true;
-					}
+				dialogueEnd = CoolUtil.coolTextFile("assets/data/" + songDialogue + "/dialogueEnd" + languageDia + ".txt");
+				usesEndDialogue = true;
 			}
 
 		trace('INFORMATION ABOUT WHAT U PLAYIN WIT:\nFRAMES: ' + PlayStateChangeables.safeFrames + '\nZONE: ' + Conductor.safeZoneOffset + '\nTS: '
@@ -1545,7 +1550,6 @@ class PlayState extends MusicBeatState
 		textUnlock.cameras = [camHUD];
 		textUnlock.alpha = 0;
 
-
 		for (i in 0...creditText.length)
 			{
 				if (i <= 6 && i > 0) //for epilogue text
@@ -1601,6 +1605,62 @@ class PlayState extends MusicBeatState
 		credGroup.y = 600;
 		credGroup.cameras = [camHUD];
 		credGroup.visible = false;
+
+		for (i in 0...creditTextES.length)
+			{
+				if (i <= 6 && i > 0) //for epilogue text
+					{
+						var credIcon = new HealthIcon(iconArray[i-1], false);
+						var credline = new FlxText(0, 100 + (i * 300), FlxG.width/2, creditTextES[i], 32);
+						credline.setFormat("VCR OSD Mono", 24, FlxColor.fromRGB(200, 200, 200), CENTER);
+						credline.borderColor = FlxColor.BLACK;
+						credline.borderSize = 2;
+						credline.borderStyle = FlxTextBorderStyle.OUTLINE;
+
+						credIcon.x = credline.x + 240;
+						credIcon.y = credline.y + 155;
+						if(iconArray[i-1] == 'dad')
+							{
+								credIcon.y = credline.y + 165;
+							}
+						if(iconArray[i-1] == 'monster')
+							{
+								credIcon.y = credline.y + 145;
+							}
+						if(iconArray[i-1] == 'ina')
+							{
+								credIcon.y = credline.y + 145;
+							}
+						if(iconArray[i-1] == 'gf')
+							{
+								credIcon.animation.curAnim.curFrame = 1;
+							}
+						credGroupES.add(credIcon);
+						credGroupES.add(credline);
+					}
+				else if (i == 0) //this is the 1st element because i forgot how to do arrays wwwwww
+					{
+						var credline = new FlxText(0, 200, FlxG.width/2, creditTextES[i], 32);
+						credline.setFormat("VCR OSD Mono", 24, FlxColor.fromRGB(200, 200, 200), CENTER);
+						credline.borderColor = FlxColor.BLACK;
+						credline.borderSize = 2;
+						credline.borderStyle = FlxTextBorderStyle.OUTLINE;
+						credGroupES.add(credline);
+					}
+				else //for credit text
+					{
+						var credline = new FlxText(0, 1600 + (i * 100), FlxG.width/2, creditTextES[i], 32);
+						credline.setFormat("VCR OSD Mono", 24, FlxColor.fromRGB(200, 200, 200), CENTER);
+						credline.borderColor = FlxColor.BLACK;
+						credline.borderSize = 2;
+						credline.borderStyle = FlxTextBorderStyle.OUTLINE;
+						credGroupES.add(credline);
+					}
+			}
+		add(credGroupES);
+		credGroupES.y = 600;
+		credGroupES.cameras = [camHUD];
+		credGroupES.visible = false;
 		
 		lastRemote = new FlxSprite().loadGraphic(Paths.image('LastRemote_Activation'));
 		lastRemote.x = 400;
@@ -1914,8 +1974,13 @@ class PlayState extends MusicBeatState
 			var introAlts:Array<String> = introAssets.get('default');
 			var altSuffix:String = "";
 			var languageSet:String = '';
-			if (FlxG.save.data.inaLanguage) {languageSet = 'jp/';}
-			else {languageSet = 'en/';}
+
+			switch(FlxG.save.data.inaLanguage)
+			{
+				case 'ENGLISH': languageSet = 'en/';
+				case 'JAPANESE': languageSet = 'jp/';
+				case 'SPANISH': languageSet = 'es/';
+			}
 
 			for (value in introAssets.keys())
 			{
@@ -1948,7 +2013,7 @@ class PlayState extends MusicBeatState
 						case 0:
 							FlxG.sound.play(Paths.sound('intro3' + altSuffix), 0.6);
 						case 1:
-							var ready:FlxSprite = new FlxSprite().loadGraphic(Paths.image(languageSet + introAlts[0]));
+							var ready:FlxSprite = new FlxSprite().loadGraphic(Paths.image('language/' + languageSet + introAlts[0]));
 							ready.scrollFactor.set();
 							ready.updateHitbox();
 		
@@ -1966,7 +2031,7 @@ class PlayState extends MusicBeatState
 							});
 							FlxG.sound.play(Paths.sound('intro2' + altSuffix), 0.6);
 						case 2:
-							var set:FlxSprite = new FlxSprite().loadGraphic(Paths.image(languageSet + introAlts[1]));
+							var set:FlxSprite = new FlxSprite().loadGraphic(Paths.image('language/' + languageSet + introAlts[1]));
 							set.scrollFactor.set();
 		
 							if (curStage.startsWith('school'))
@@ -1983,7 +2048,7 @@ class PlayState extends MusicBeatState
 							});
 							FlxG.sound.play(Paths.sound('intro1' + altSuffix), 0.6);
 						case 3:
-							var go:FlxSprite = new FlxSprite().loadGraphic(Paths.image(languageSet + introAlts[2]));
+							var go:FlxSprite = new FlxSprite().loadGraphic(Paths.image('language/' + languageSet + introAlts[2]));
 							go.scrollFactor.set();
 		
 							if (curStage.startsWith('school'))
@@ -3181,19 +3246,38 @@ class PlayState extends MusicBeatState
 
 		if (curSong == 'Stand By Me') //this is a good song so please listen to it
 			{
-				if (curStep == 1)
-					{
-						credGroup.visible = true;
-						takoTweens.tween(credGroup, {y: -3450}, 228);
-					}
-				if (curStep == 1648)
-					{
-						if(!FlxG.save.data.inaHard)
+				switch(FlxG.save.data.inaLanguage)
+				{
+					case 'ENGLISH' | 'JAPANESE':
+						if (curStep == 1)
 							{
-								textUnlock.alpha = 1;
+								credGroup.visible = true;
+								takoTweens.tween(credGroup, {y: -3450}, 228);
 							}
-					}
-					cannotDie = true;
+						if (curStep == 1648)
+							{
+								if(!FlxG.save.data.inaHard)
+									{
+										textUnlock.alpha = 1;
+									}
+							}
+							cannotDie = true;
+					case 'SPANISH':
+						if (curStep == 1)
+							{
+								credGroupES.visible = true;
+								takoTweens.tween(credGroupES, {y: -3450}, 228);
+							}
+						if (curStep == 1648)
+							{
+								if(!FlxG.save.data.inaHard)
+									{
+										textUnlock.alpha = 1;
+									}
+							}
+							cannotDie = true;
+				}
+
 			}
 
 		if (health <= 0 && !cannotDie)
@@ -3998,8 +4082,13 @@ class PlayState extends MusicBeatState
 			var pixelShitPart1:String = "";
 			var pixelShitPart2:String = '';
 			var languageSet:String = '';
-			if (FlxG.save.data.inaLanguage) {languageSet = 'jp/';}
-			else {languageSet = 'en/';}
+
+			switch(FlxG.save.data.inaLanguage)
+			{
+				case 'ENGLISH': languageSet = 'en/';
+				case 'JAPANESE': languageSet = 'jp/';
+				case 'SPANISH': languageSet = 'es/';
+			}
 
 			if (curStage.startsWith('school'))
 			{
@@ -4007,7 +4096,7 @@ class PlayState extends MusicBeatState
 				pixelShitPart2 = '-pixel';
 			}
 
-			rating.loadGraphic(Paths.image(pixelShitPart1 + languageSet + daRating + pixelShitPart2));
+			rating.loadGraphic(Paths.image(pixelShitPart1 + 'language/' + languageSet + daRating + pixelShitPart2));
 			rating.screenCenter();
 			rating.y -= 50;
 			rating.x = coolText.x - 125;
@@ -4073,7 +4162,7 @@ class PlayState extends MusicBeatState
 			if (!PlayStateChangeables.botPlay || loadRep)
 				add(currentTimingShown);
 
-			var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(pixelShitPart1 + languageSet + 'combo' + pixelShitPart2));
+			var comboSpr:FlxSprite = new FlxSprite().loadGraphic(Paths.image(pixelShitPart1 + 'language/' + languageSet + 'combo' + pixelShitPart2));
 			comboSpr.screenCenter();
 			comboSpr.x = rating.x;
 			comboSpr.y = rating.y + 100;

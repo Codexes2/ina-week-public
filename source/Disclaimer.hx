@@ -25,16 +25,9 @@ class Disclaimer extends MusicBeatState
 	];
 	private var colorRotation:Int = 1;
 
-	var language = false;
-
 	override function create()
 	{
 		super.create();
-
-		if (FlxG.save.data.inaLanguage)
-			{
-				language = true;
-			}
 
 		var bg:FlxSprite = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.screenCenter();
@@ -59,6 +52,7 @@ class Disclaimer extends MusicBeatState
 		txt.borderSize = 3;
 		txt.borderStyle = FlxTextBorderStyle.OUTLINE;
 		txt.screenCenter();
+		txt.alpha = 0;
 
 		var jpTxt:FlxText = new FlxText(0, 0, FlxG.width,
 			"このMODはCOVER Corp.、ホロライブ、またはそのメンバーからの正式な認定や支持を受けておりません。\n"
@@ -75,19 +69,41 @@ class Disclaimer extends MusicBeatState
 		jpTxt.borderSize = 3;
 		jpTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
 		jpTxt.screenCenter();
+		jpTxt.alpha = 0;
+
+		var esTxt:FlxText = new FlxText(0, 0, FlxG.width,
+			"Este mod no está respaldado ni afiliado oficialmente con COVER Corporation, Hololive, o cualquiera de los talentos de Hololive.\n"
+			+ "\nHoloFunk es ante todo un mod creado por fans impulsado por pasión y amor por hololive y Friday Night Funkin. "
+			+ "Su continuidad debe tratarse como algo completamente separado de los de los dos medios principales mencionados anteriormente, y como tal, "
+			+ "los eventos pueden desviarse de los sucesos de la vida real y lo establecido en el canon.\n"
+			+ "\nTENGA EN CUENTA: INA WEEK NO ES CANON EN EL LORE DE HOLOFUNK!!!\n"
+			+ "\nIna Week también fue desarrollado por un equipo separado del equipo principal de HoloFunk.\n"
+			+ "\nHay una cancion que tomará unos cuantos minutos para cargar -- por favor se paciente durante ese tiempo!\n"
+			+ "\nPresiona ESPACIO o ENTER para continuar.\n",
+			32);
+		esTxt.setFormat(Paths.font("rhp.ttf"), 32, FlxColor.fromRGB(200, 200, 200), CENTER);
+		esTxt.borderColor = FlxColor.BLACK;
+		esTxt.borderSize = 3;
+		esTxt.borderStyle = FlxTextBorderStyle.OUTLINE;
+		esTxt.screenCenter();
+		esTxt.alpha = 0;
 
 		add(txt);
 		add(jpTxt);
-		if (language)
-			{
-				txt.alpha = 0;
-				jpTxt.alpha = 1;
-			}
-		else
-			{
-				jpTxt.alpha = 0;
+		add(esTxt);
+
+		switch(FlxG.save.data.inaLanguage)
+		{
+			case 'ENGLISH':
 				txt.alpha = 1;
-			}
+			case 'JAPANESE':
+				jpTxt.alpha = 1;
+			case 'SPANISH':
+				esTxt.alpha = 1;
+			default:
+				trace(FlxG.save.data.inaLanguage);
+				trace("im sorry what");
+		}
 		
 		FlxTween.color(bg, 2, bg.color, FlxColor.fromString(bgColors[colorRotation]));
 		

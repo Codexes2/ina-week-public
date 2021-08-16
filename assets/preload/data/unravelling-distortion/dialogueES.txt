@@ -1,0 +1,39 @@
+:music:lofi:0.5
+:bg:stage1:
+:effect:rightSide:
+:gf:default:Eso fué increíble, Aloe-chan!
+
+:effect:rightSide:
+:bf:default:Uf... como estuvo eso, Ina?
+
+:ina:winkFrown:Si, lo hiciste bastante bien, Aloe-senpai.
+:ina:default:Sin embargo,no te dejaré ir tan fácil.
+:ina:smile:Disculpanos, Nene-senpai, Aloe-senpai  y yo estaremos fuera por un tiempo.
+:ina:winkSmile:No tomará mucho tiempo.
+
+:bg:darkness:
+:music:stop:
+:sound:snap:
+:effect:hidden:
+
+:music:san:0.5
+:effect:fadeIn:0.2
+:bgFades:stage2:
+:bg:stage2:
+:effect:rightSide:
+:effect:fadeIn:0.4
+:bf:fear:Eh?! Dónde estamos?!
+
+:effect:fadeIn:0.4
+:ina:smile:Está bien, Aloe-senpai, solo estaremos aquí por un corto tiempo.
+:ina:default:... Realmente te preocupas por Nene-senpai, no es así?
+
+:effect:rightSide:
+:bf:default: Por supuesto que sí! Por que no lo haría?
+
+:ina:default:Ya veo. Entonces tengamos otra batalla de rap aquí.
+:ina:smile:Quizás puedas llamar a esto una 'prueba de voluntad' en su lugar.
+:ina:winkSmile:O talvez... una prueba de cordura?
+
+:effect:rightSide:
+:bf:scared:...

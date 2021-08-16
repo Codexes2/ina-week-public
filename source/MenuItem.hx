@@ -17,8 +17,13 @@ class MenuItem extends FlxSpriteGroup
 	{
 		super(x, y);
 		var languageSet:String = '';
-		if (FlxG.save.data.inaLanguage) {languageSet = 'jp/';}
-		else {languageSet = 'en/';}
+		
+		switch(FlxG.save.data.inaLanguage)
+		{
+			case 'ENGLISH': languageSet = 'en/';
+			case 'JAPANESE': languageSet = 'jp/';
+			case 'SPANISH': languageSet = 'es/';
+		}
 		week = new FlxSprite().loadGraphic(Paths.image('storymenu/' + languageSet + 'week' + weekNum));
 		add(week);
 	}

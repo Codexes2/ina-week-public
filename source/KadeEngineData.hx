@@ -125,7 +125,7 @@ class KadeEngineData
 			FlxG.save.data.sanityNotes = false;
 
 		if (FlxG.save.data.inaLanguage == null)
-			FlxG.save.data.inaLanguage = false;
+			FlxG.save.data.inaLanguage = 'ENGLISH';
 
 		if (FlxG.save.data.inaHard == null)
 			FlxG.save.data.inaHard = false;
